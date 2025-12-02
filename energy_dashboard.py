@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""
-energy_dashboard.py
-Compact single-file implementation for Campus Energy-Use Dashboard.
-Outputs:
- - output/cleaned_energy_data.csv
- - output/building_summary.csv
- - output/summary.txt
- - output/dashboard.png
-"""
 import sys, logging
 from pathlib import Path
 import pandas as pd
